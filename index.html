@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chicago Divvy Bikes - IMT 562</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section s1">
+            <h1>Let's go for a Ride!</h1>
+			<h4 id="main-subtitle">Exploring Chicago's popular bike-share program "Divvy"</h4>
+			<h5 id="main-subtitle">IMT 562 - Interactive Data Visualization (UW Winter 2020)</h5>
+        </div>
+        <div class="section s2">
+            <div class="slide">
+                <h1>Divvy Bikes</h1>
+				<p><h4>
+                Divvy is Chicago's bike share system, with over 600 stations and 6,000+ bikes across Chicagoland. 
+				It’s a fun, affordable and convenient way to get around. We want to explore the most popular routes in 
+				terms of rider traffic and come up with recommendations to improve the bike-share program based on the 
+				rider usage patterns during the various times of the day.
+				</h5></p>
+				<span class="arrow primera next "></span>
+            <span class="arrow segunda next "></span>
+            </div>
+            <div class="slide">
+                <h1>BikeShare growth in USA 2013-2016</h1>
+			<center><img src="chart.jpg" alt="chart" height="500" width="1000"></center>
+            </div>
+            </div>
+        <div class="section s3">
+            <h1>Divvy Bikeshare Program - Ridership in Q4 2019</h1>
+			<center><div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1541672" data-width="97%"><script src="https://public.flourish.studio/resources/embed.js"></script></div></center>
+        </div>
+		<div class="section s4">
+            <h1>Explore the routes</h1>
+		<center><div class="flourish-embed" data-src="story/210388" data-width="100%" data-height="415%"><script src="https://public.flourish.studio/resources/embed.js"></script></div></center>
+		</div>
+		<div class="section s5">
+			<center><h1>About this Project</h1></center>
+            <h2>
+              This project was a final project for the University of Washington's Data Visualization course, IMT 562 taught by Dr.Phil Fawcett.
+            </h2>
+        
+              <h3>Sources:</h3>
+              <ol>
+                <li><h5>Divvy Open System data:</br><a href="https://www.divvybikes.com/system-data" target="_blank" style="color:yellow">Divvy</a></h5></li>
+                <li><h5>Kaggle Chicago Bikehsare data:<br><a href="https://www.kaggle.com/yingwurenjian/chicago-divvy-bicycle-sharing-data" target="_blank" style="color:yellow">Kaggle </a></h5></li>
+				<h1>Special Thanks</h1>
+              <ul>
+                <li><h5><a href="https://ischool.uw.edu/people/faculty/profile/philfa" target="_blank" style="color:red">Dr. Phil Fawcett</a> for his insightful data visualization lectures and guidance throughout this project</h5></li>
+        </div>
+		
+		<!--Last Section-->
+		<div class="section about" data-anchor="about-us">
+        <div id="about-container" class="section-container">
+          <div id="about-intro" class="section-intro">
+            <h1>About Us</h1>
+            <h5> 
+              We are a team of four graduate students from the University of Washington - Information School.
+            </h5>
+          </div>
+          <div id="about-wrapper" class="viz-wrapper">
+              <div>
+                <div class="circular circularMayuresh"></div>
+                <p> Mayuresh Mali </p>
+                <p>
+                  <a href="https://github.com"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>   
+                  <a href="https://www.linkedin.com" target="_blank" class="emails"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                </p>
+              </div>
+              <div>
+                <div class="circular circularKiran"></div>
+                <p> Kiranmayi KLC </p>
+                <p>
+                  <a href="https://github.com" target="_blank" class="emails"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>   
+                  <a href="https://www.linkedin.com" target="_blank" class="emails"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                </p>
+              </div>
+              <div>
+                <div class="circular circularNetra"></div>
+                <p> Netra Pathak </p>
+                <p>
+                  <a href="https://github.com" target="_blank" class="emails"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>   
+                  <a href="https://www.linkedin.com" target="_blank" class="emails"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                </p>
+              </div>
+              <div>
+                <div class="circular circularMansi"></div>
+                <p> Mansi Mehrotra </p>
+                <p>
+                  <a href="https://github.com" target="_blank" class="emails"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>   
+                  <a href="https://www.linkedin.com" target="_blank" class="emails"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                </p>
+              </div>
+          </div>
+        </div>
+        </div>
+	</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            scrollHorizontally: true,
+            navigation: true,
+            navigationTooltips: ['Home', 'BikeShare Chicago', 'Divvy', 'Explore','Conclusion','About us'],
+            controlArrows: true,
+            slidesNavigation: true,
+            keyboardScrolling: true
+        });
+    </script>
+
+</body>
+
+</html>
